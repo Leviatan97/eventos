@@ -1,0 +1,32 @@
+nav {
+    box-shadow: 1px 4px 5px 0px #e2e2e2;
+}
+div.collapse.navbar-collapse {
+    justify-content: center;
+}
+
+div.input-group {
+    width: 30%;
+}
+
+input.form-control {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: x-small;
+    height: 50%;
+    box-shadow: 1px 4px 5px 0px #e2e2e2;
+}
+
+div.input-group button.btn.btn-outline-secondary {
+    font-size: x-small;
+    height: 26px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 4px 5px 0px #e2e2e2;
+    align-items: center;
+    display: flex;
+}
+
+div.container-fluid button.btn.btn-outline-secondary {
+    font-size: x-small;
+}

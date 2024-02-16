@@ -1,0 +1,50 @@
+<nav class="navbar">
+    <div class="container-fluid">
+        <ul class="list-group list-group-horizontal">
+            <li 
+                class="list-group-item"
+                (click)="optionSelect('Lugar')"
+                [ngClass]="{
+                    'select' : option == 'Lugar',
+                    'no-select' : option != 'Lugar'
+                }"
+            >
+                <i class="bi bi-house-door"></i>
+                <p>Lugar</p>
+            </li>
+            <li 
+                class="list-group-item"
+                (click)="optionSelect('Musica')"
+                [ngClass]="{
+                    'select' : option == 'Musica',
+                    'no-select' : option != 'Musica'
+                }"
+            >
+                <i class="bi bi-music-note-beamed"></i>
+                <p>Música</p>
+            </li>
+            <li 
+                class="list-group-item"
+                (click)="optionSelect('Alimentos')"
+                [ngClass]="{
+                    'select' : option == 'Alimentos',
+                    'no-select' : option != 'Alimentos'
+                }"
+            >
+                <i class="bi bi-cup-straw"></i>
+                <p>Alimentos</p>
+            </li>
+            <li 
+                class="list-group-item"
+                (click)="optionSelect('Decoracion')"
+                [ngClass]="{
+                    'select' : option == 'Decoracion',
+                    'no-select' : option != 'Decoracion'
+                }"
+            >
+                <i class="bi bi-stars"></i>
+                <p>Decoración</p>
+            </li>
+        </ul>
+    </div>
+  </nav>

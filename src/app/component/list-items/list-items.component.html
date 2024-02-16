@@ -1,0 +1,29 @@
+<div id="navbar-example3" class="container">
+  <div 
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-example3"
+    data-bs-offset="0"
+    tabindex="0"  
+    class="
+      row 
+      justify-content-center 
+      align-items-center 
+      g-2
+    "
+  >
+    <div class="col-xl-2" *ngFor="let item of list">
+      <div class="card">
+        <carousel [isAnimated]="true" [interval]="0">
+          <slide *ngFor="let img of item.images">
+            <img src="{{img}}" alt="first slide" (click)="navigateToDetail()" >
+          </slide>
+        </carousel>
+          <div class="card-body" (click)="navigateToDetail()">
+            <h5 class="card-title">{{item.name}}  {{item.city}}</h5>
+            <p class="card-text">{{item.price|currency}}</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+

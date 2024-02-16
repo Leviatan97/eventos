@@ -1,0 +1,31 @@
+nav {
+    border-bottom: #e2e2e2 1px solid;
+    padding: 0;
+}
+
+div.container-fluid {
+    justify-content: center;
+}
+
+  
+li {
+    text-align: center;
+    border: 0px;
+    background-color: transparent;
+    border-radius: 0px 0px !important;
+    cursor: pointer;
+}
+
+.select {
+    color: #0c0d0d;
+    border-bottom: #0c0d0d 1px solid;
+}
+
+.no-select {
+    color: #6c757d;
+}
+
+p {
+    font-size: xx-small;
+    margin: 0%;
+}
